@@ -1,16 +1,54 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mock Test</title>
+        <link rel="stylesheet" type="text/css" href="mocktest.css">
+        <script type="text/javascript" src="mocktest.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <div>TODO write content</div>
+        <center>
+            <div class="container">
+                <div class="row">
+                    <div class="logo">
+                        <a href="index.html"><img class="image" src="img/logo.png" ></a>
+                    </div>
+                    <b><div class="score form-group ">&emsp;Score:<span id="score" class="field">0</span></div>
+                    <div class="question form-group ">Question:<span id="questionnum" class="feild">1</span>/20</div></b>
+                </div><br>
+                
+                <div class="alert alert-success" id="success"><center>
+                    <strong>Succesfully Completed</strong><br>
+                    <a href="javascript:reset_clicked()">RETEST</a>&emsp;<a href="symbol.html">SYMBOLS</a></center>
+                </div>
+                <div class="alert alert-danger" id="fail"><center>
+                    <strong>Failed!</strong><br>
+                    <a href="practice.html">PRACTICE</a>&emsp;<a href="javascript:reset_clicked()">RETEST</a></center>
+                </div>
+                <div class="quiz row">
+                    <div class="form-group ">
+                        <b><div id="question" class="field"></div></b>
+                    </div>
+                    <div class="form-group">
+
+                        <span><button id="answerA" class="form-group" onclick="answerA_clicked()"></button></span><br>
+
+                        <span><button id="answerB" class="form-group" onclick="answerB_clicked()"></button></span><br>
+
+                        <span><button id="answerC" class="form-group" onclick="answerC_clicked()"></button></span><br>
+
+
+
+                        <span><button id="next" class="form-group" onclick="next_clicked()">NEXT</button></span><br>
+
+                        <span><button id="reset" class="form-group" onclick="reset_clicked()">RESET</button></span>
+
+                    </div>
+                </div>
+                
+            </div>
+            
+        </center>
     </body>
 </html>
