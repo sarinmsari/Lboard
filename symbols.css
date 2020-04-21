@@ -1,0 +1,14 @@
+.image{
+    max-width: 10%;
+    height: auto;
+}
+.logo:hover img{
+    opacity: 0.7;
+}
+.container{
+}
+@media (max-width: 768px){
+    .image{
+        max-width: 25%;
+    }
+}
