@@ -1,10 +1,14 @@
 
+
 img{
     max-width: 20%;
     height: auto;
 }
 .header{
     text-align: center;
+}
+.outer{
+    overflow: hidden;
 }
 .circle1 .text, .circle2 .text{
     margin-top: 115px;
@@ -40,13 +44,13 @@ img{
 .circle1{
     float: left;
     margin-right: 20px;
-    margin-left: -20px;
+    margin-left: -10%;
     
 }
 .circle2{
+    left: 10%;;
     float: right;
     margin-left: 20px;
-    margin-right: -20px;
 }
 @media (max-width: 992px){
     img{
