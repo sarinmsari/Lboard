@@ -1,0 +1,41 @@
+
+img{
+    max-width: 10%;
+    height: auto;
+    float: left;
+    margin: 20px;
+}
+.container{
+    border: 1px solid #888;
+    border-radius: 20px;
+    background-color: #eee;
+    max-width: 500px;
+    margin: 20px;
+}
+.logo:hover img{
+    opacity: 0.7;
+}
+.ques{
+    padding: 5px;
+    text-align: center;
+    margin: 10px;
+    float: left;
+    border-radius: 15px;
+    background-color: #fff;
+}
+.ans{
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    float: right;
+    border-radius: 15px;
+    background-color: #14CDA0;
+}
+@media (max-width: 768px){
+    img{
+        max-width: 15%;
+    }
+}
+footer{
+    bottom: 0%;
+}
