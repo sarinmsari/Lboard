@@ -45,6 +45,9 @@ img{
     img{
         max-width: 15%;
     }
+    .container{
+        width: 100%;
+    }
 }
 footer{
     bottom: 0%;
