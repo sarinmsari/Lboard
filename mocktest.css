@@ -46,15 +46,15 @@ span:hover button{
     border-width: 2px;
 }
 #next{
-    background-color: #000;
-    color: #fff;
-    border-color: #0066cc;
-    margin-top: 20px;
-}
-span:hover #next{
     background-color: #0066cc;
     color: #fff;
     border-color: #000;
+    margin-top: 20px;
+}
+span:hover #next{
+    background-color: #000;
+    color: #fff;
+    border-color: #0066cc;
 }
 #reset{
     background-color: #ddd;

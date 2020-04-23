@@ -1,5 +1,10 @@
-body{
-    background-color: #0066cc;
+
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 .image{
     max-width: 10%;
